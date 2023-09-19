@@ -45,14 +45,16 @@
 }
 .phone-widget__text {
   font-weight: bold;
-  font-size: 21px;
+  font-size: 18px;
   color: #ffffff;
 }
 .phone-widget__icon {
   width: 54px;
+  max-width: 54px;
   height: 54px;
   background-color: #ffffff;
   
+  flex: 1 0 54px;
   display: flex;
   align-items: center;
   justify-content: center;
